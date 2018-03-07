@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* Background Styles */
+html{
+	background-color: transparent;
+}
+body{
+	background-color:#eed; 
+	background-repeat:no-repeat;
+	background-position:center;
+	height:100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0px;
+	overflow-x: hidden;
+}
+.banner {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /*ie8 fix*/
+}
+#page {
+	padding: 0.5em 0;
+}
+.inner {
+	margin: 0 auto;
+	width: 93.75%;	
+}
+.testimonialbar{
+	margin: 7em 0em;
+	float: left;
+	width: 15%;	
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.box{
+	float: left;
+	width: 72%;	
+	border: 0.062em solid #6F5;
+	background-color:#fff; 
+	-moz-box-shadow: 0 0.125em 0.125em #6F5;
+	-webkit-box-shadow: 0 0.125em 0.125em #6F5;
+	-ms-box-shadow: 0 0.125em 0.125em #6F5;
+	-o-box-shadow: 0 0.125em 0.125em #6F5;
+	box-shadow: 0 0.125em 0.125em #6F5;	
+}
+/* Content Styles */
+header{
+	/*height: 8em;*/
+	width: 100%;
+	background:#fff;
+}
+.source-image{
+	text-align:center;
+    margin:0;
+    padding:0;
+}
+/*
+Lime: #6F5;
+Dark Purple:#608;
+Orange: #f70;
+Light Purple: #D8F;
+Reddish: #900;
+*/
+a.hiddenLink{
+	color: #D8F;
+}
+.idTabs{
+    width:100%;
+    text-align:center;
+    background:#f70;
+    padding-top:.25em;
+    padding-bottom:.25em;
+    color:#608;
+    font:1.75em Cambria, Times New Roman, serif;
+    font-style:italic;
+    font-weight:bold;
+    border-top: 2px solid #608;
+    border-bottom: 2px solid #608;
+}
+.idTabs li a{
+    padding-left:30px;
+    padding-right:30px;
+    margin:1px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:0.7em;
+    font-style:normal;
+    color:#608;
+    white-space: nowrap;
+}
+.idTabs li a:hover{
+    text-decoration:none;
+    background:#608;
+    color:#6f5;
+}
+.idTabs li a.selected {
+  background:#eed;
+  text-decoration:none;
+  color:#000;
+  cursor:default;
+}
+.container{
+    width: 100%;
+}
+section{
+    margin-left:1em;
+    margin-right:1em;
+}
+footer{
+	background-color:#6F5;
+	border: 2px solid #FFF;
+	clear:both;
+	text-align:center;
+}
+footer a{
+	color:#444;
+	font-weight:bold;
+}
+/* Text Styles */
+h1{
+	margin: 0.5em;
+	font-weight:bold;
+	font-family:headerFont, Tahoma;
+	font-size:medium;
+	color:#333300;
+	letter-spacing:0.2em;
+	line-height:1;
+	text-align:left;	
+}
+p{
+	font-family:bodyFont, "Comic Sans MS";
+	font-size:95%;
+	color:#444444;
+}
+p.important{
+	color:#000000;
+	background-color:#6F5;
+	font-size:larger;
+	outline-style: solid;
+    outline-color: #090;
+}
+p.minus{
+	font-size:.75em;
+	text-align:center;
+}
+p.testimonial{
+    font-style:italic;
+    font-size:95%;
+}
+p.testname{
+    font-weight:bold;
+    font-size:80%;
+    text-align:right;
+}
+p.testside{
+    font-style:italic;
+    font-size:85%;
+}
+p.nameside{
+    font-weight:bold;
+    font-size:75%;
+    text-align:right;
+}
+/* Table Styles */ 
+table{
+	margin: 0em 1em;
+	width:80%;
+	margin-left:5%;
+	margin-right:5%;
+}
+table#gallerytbl, #biotbl{
+	margin: 0em 1em;
+	width: 90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+table#feetbl{
+	margin: 0em 2em;
+	width: 23em;
+	margin-left:10%;
+}
+table#main{
+	margin: 0em;
+}
+td {
+	font-family:bodyFont, "Comic Sans MS";
+	color:#444444;
+	vertical-align:top;
+	padding: 0px, 2px;
+}
+/* Staff Listing Styles */
+.biobox{
+	width:100%;
+}
+.biobox h1, p{
+	margin:0.5em;
+}
+.bioimg{
+	width:100px;
+	float:left;
+	padding:10px;
+}
+
+/* Image Gallery Styles */
+.galleryimg{
+	margin: 1px;
+	width: 150px;
+	text-align:center;
+ }
+.img img{
+	width: 150px;
+	height: 150px;
+	margin:1px;
+	border:1px solid #ffffff;
+}
+.img a:hover img{
+	border:1px solid #0000ff;
+}
+.imgdesc{
+	text-align:center;
+	font-weight:normal;
+	width:auto;
+	margin:1px;
+	border: 1px solid #000;
+}
+
+/* Navigation Styles */
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+li{
+	display:inline;
+}
+a{
+	text-decoration:none;
+	color:#FFF;	
+	text-align:right;
+}
+a:hover,a:active{
+	text-decoration:underline overline;
+	color:#FFF;
+}
+a:link,a:visited{
+	font-weight:bold;
+	color:#608;
+}
+a.return,a.return:hover,a:active{
+	text-decoration:underline overline;
+}
+a.return:link, a.return:visited{
+	color:#444444;
+}

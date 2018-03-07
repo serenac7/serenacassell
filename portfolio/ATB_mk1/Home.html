@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	  	<meta name="description" content="After The Bell Inc." />
+	  	<meta name="keywords" content="After The Bell Inc. - Letting Kids be Kids!" />	  	
+	  	
+	  	<link rel="stylesheet" href="other/atb.css" />   
+        <script src='js/wp-fade-in-text-news.js'></script>
+	  	<script src="other/lib/js/jquery-1.7.2.min.js"></script>
+	  	<script src="other/lib/jquery.idTabs.min.js"></script>
+  		<title>After The Bell Inc. - Letting Kids be Kids!</title>  		
+	</head>
+	
+	<body>
+		<script type="text/javascript">	
+		/* Set home page when opening the screen */
+		$(window).load(function() {LoadNewContent('pagebody','homepage.html');});
+		
+		/* function to load new content dynamically */
+		function LoadNewContent(id,file){
+			$("#"+id).load(file);
+		}
+
+		/* Testimonials */
+    	function FadeIn_SetFadeLinks(){
+			FadeIn_Links[0] = '#';
+			FadeIn_Titles[0] = '<p class="testside">"After the Bell offers us security, flexibility and peace of mind. We know our children are safe and well cared for. The staff provide them with an engaging place to play, explore, make friends and be themselves. They feel at home at After the Bell. At the end of the day, I will hear "Aww MOM! I\'m not ready to go!" - one of the best endorsements a centre could have."</p> <p class="nameside">~ The Collens Family - an After The Bell family for 4 years and counting! (March, 2013)</p>';	
+			FadeIn_Links[1] = '#';
+			FadeIn_Titles[1] = '<p class="testside">"Love Mandy and her girls at ATB ... They are great with the kids and my son spends the summer there with their summer camps !! Next year both of my boys will be there :)"</p><p class="testname">~ Tanya (March 2013)</p>';
+			FadeIn_Links[2] = '#';
+			FadeIn_Titles[2] = '<p class="testside">"My son has been going to After The Bell since his first day of primary and he is now in grade 4 and still attends. He would have it no other way than to continue to go there until he finishes elementary school. From the first day, I never had any worries about his safety. Anyone who knows me, knows I am a pretty particular Mom and feel very confident in saying that ATB is a wonderful place to attend. In the summer, they keep the children occupied with fun activities for all interests. The girls there take personal interest in the children and are concerned about what is going on in their lives. I would highly recommend ATB as a safe, organized, fun place for your child when you cannot be with them."</p><p class="nameside">~ Michelle (March 2013)</p>';
+			FadeIn_Links[3] = '#';
+			FadeIn_Titles[3] = '<p class="testside">"My children have been attending After The Bell for 4 years and they absolutely love it!  On snow or in-service days, they would rather go to After The Bell to play with their friends than stay home (and they never want to be picked up early).  They have both made many lasting, true friendships. After The Bell has become an extended family and the Staff genuinely care about all the children. Activities are well organized and thought out to ensure there is always something special for each unique child to enjoy. I feel very fortunate that I have found a child care centre that my children truly love attending and where I feel confident that they are well cared for, respected and safe."</p><p class="nameside">~ Heather & Steve (March 2013)</p>';
+			FadeIn_Links[4] = '#';
+			FadeIn_Titles[4] = '<p class="testside">"When it comes to the most important thing in the world to us, we have very high standards...  After the Bell certainly lives up to those standards.  ATB is a great place where kids get to be kids.  The staff is friendly, professional and they create a great environment where the children get to learn, be social, work and play together and most of all, have fun!  We have a great sense of comfort knowing our child is well cared for with ATB!"</p><p class="nameside">~ J & T (March 2013)</p>';
+			FadeIn_Links[5] = '#';
+			FadeIn_Titles[5] = '<p class="testside">"When we first moved to the neighborhood, one of my first concerns was finding a before-and-after school placement for my son. There are a few options in Cole Harbour, but of all of them, I believe that After The Bell Inc is the best! The staff made the transition as easy as possible for him, and most of his new friends are there.<br>My daughter enjoys visiting and playing when we pick up and drop off my son, I know she can hardly wait to start in July 2013!"</p><p class="nameside">~ Serena (March 2013)</p>';
+			FadeIn_Links[6] = '#';
+			FadeIn_Titles[6] = '<p class="testside">"I would like to begin by saying from the first phone call to inquire about your services I was given nothing but quality Client Service Delivery and to this I will always be grateful. My first phone call was lengthy, many questions, concerns and uncertainty. This would be the 1st time to leave my only child with a child care provider that I didn\'t know (you came highly recommended) I didn\'t know the ever so patient person on the other end was the owner ;) who took the time to reassure me  "yes we have the proper ration child/ staff, yes the children play according to age, yes our staff are certified have all the correct documentation", etc etc; thank you for not brushing me off and showing patience to my many questions  ;) leaving your 4 year old with strangers is kind of a big deal ;) <br>My daughter has enjoyed every moment spent at ATB, she has made many wonderful friends as well as fallen in love with the warm and nurturing staff and maybe stolen their hearts ;) I am quite sure our paths will cross again in the future. Thank you all for your wonderful care and allowing this mother to work worry free knowing optimal care was being given to my daughter in my absence. My husband and I will be forever grateful to all of you for making this a wonderful experience for her ;) she has enjoyed every field trip, craft, experiment,concert etc ;)"</p> <p class="nameside">~ S & J (February 2015)</p>';	
+		}
+
+		var FadeIn_FadeOut = 255;
+		var FadeIn_FadeIn = 0;
+		var FadeIn_Fade = 0;
+		var FadeIn_FadeStep = 3;
+		var FadeIn_FadeWait = 10000;
+		var FadeIn_bFadeOutt = true;
+		</script>
+	
+		<div class="testimonialbar">
+		<h1>Testimonials</h1>
+			<div><p id="FadeIn_Link">Enable Javascript to see the testimonials!</p></div>
+		</div>
+		
+    	<div class="box">
+        	<header><h1><img class="banner" src="images/banner.jpg" alt="After The Bell Inc; Letting Kids Be Kids!"/><//h1></header>
+			<!-- Navigation -->
+			<nav> 
+              <ul class="idTabs"> 
+                <li><a class="selected" href="#" onclick="LoadNewContent('pagebody','homepage.html');return false">Home</a></li> 
+				<li><a href="#" onclick="LoadNewContent('pagebody','staff.html');return false">Our Staff</a></li> 
+				<li><a href="#" onclick="LoadNewContent('pagebody','about.html');return false">About Us</a></li> 
+				<li><a href="#" onclick="LoadNewContent('pagebody','testimonials.html');return false">Testimonials</a></li>
+				<BR />
+				<li><a href="#" onclick="LoadNewContent('pagebody','register.html');return false">Register</a></li> 
+				<li><a href="#" onclick="LoadNewContent('pagebody','newsletters.html');return false">Newsletters</a></li>          
+				<li><a href="#" onclick="LoadNewContent('pagebody','contact.html');return false">Contact Info</a></li>          
+              </ul> 
+            </nav>
+            <wbr>
+			<section id="pagebody">
+			
+			</section>
+			<br>
+			<section>
+				<footer>
+					<p class="minus">~*~Created by <a href="http://ca.linkedin.com/in/serenacassell" target="_blank" rel="noopener noreferrer">SC</a> - Last Updated: March 2015~*~
+					<br> This site has been optimized for <a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank" rel="noopener noreferrer">Mozilla Firefox</a></p>
+				</footer>
+			</section>
+	    </div>
+	    
+	</body>
+</html>
+<!--
+Lots of code was mercilessly borrowed from advice websites!!
+Nav Bar: http://www.sunsean.com/idTabs/
+Fade-in/out: http://wordpress.org/plugins/tags/fade-in
+-->
