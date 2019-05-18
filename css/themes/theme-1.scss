@@ -1,0 +1,44 @@
+$page-background:#fed;
+$navbar-background:#604;
+$navbar-insideout:#CCF;
+$navbar-fixed-top-used:true;
+
+
+body{
+  background-color: $page-background;
+  @if $navbar-fixed-top-used{
+    padding-top: 70px;
+  }
+}
+
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar{
+    background-color: $navbar-background;
+}
+.navbar-inverse .navbar-brand {
+  color: $navbar-insideout;
+}
+
+
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: #e7e7e7;
+  }
+
+
+
+  .btn{
+  	background-color: #603;
+  }
+
+  .btn:hover,
+  .btn:focus,
+  .btn.focus{
+      color: #f3c;
+  }

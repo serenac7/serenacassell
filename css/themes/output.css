@@ -1,0 +1,22 @@
+body {
+  background-color: #fed;
+  padding-top: 70px; }
+  body footer {
+    margin: 50px 0; }
+  body .navbar {
+    background-color: #604; }
+  body .navbar-inverse .navbar-brand {
+    color: #CCF; }
+  body .navbar-default .navbar-nav > .open > a,
+  body .navbar-default .navbar-nav > .open > a:hover,
+  body .navbar-default .navbar-nav > .open > a:focus {
+    color: #000;
+    background-color: #e7e7e7; }
+  body .btn {
+    background-color: #603; }
+  body .btn:hover,
+  body .btn:focus,
+  body .btn.focus {
+    color: #f3c; }
+
+/*# sourceMappingURL=output.css.map */
