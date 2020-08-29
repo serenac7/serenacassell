@@ -1,0 +1,50 @@
+
+/*
+Lime: #6F5;
+Dark Purple:#608;
+Orange: #f70;
+Light Purple: #D8F;
+Reddish: #900;
+*/
+.expandedContent {display:none;}
+a,.tp-caption a.btn:hover {
+	color: #608; /* Email/Links */
+}
+.top-nav-collapse {
+	background-color: #9f7; /* Menu (below "HOME") */
+	color: #608;
+}
+
+.navbar-custom ul.nav ul.dropdown-menu li a:hover,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+	color: #6f5;
+	background-color: #608; /* Highlighted dropdown menu item */
+}
+
+.bg-skin {
+	background: #eed;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: #f00; /* Erroneous fields on contact form */
+}
+
+footer {
+    background-color: #608; /* Self-explanatory */
+}
+
+.btn-skin {
+  color: #fff;
+  background-color: #67b0d1;
+  border-color: #67b0d1;
+}
+
+p.testimonial{
+    font-style:italic;
+}
+p.testname{
+    font-weight:bold;
+    font-size:90%;
+    text-align:right;
+}
