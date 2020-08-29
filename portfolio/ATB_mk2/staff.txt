@@ -1,0 +1,489 @@
+
+<!-- DIV#mandy ---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup" id="mandy">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3>Mandy</h3> <h5>(Owner/Operator)</h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/mandy.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Mandy and I am the Program Owner and founder of After The Bell Inc since 2006. I'm also one
+			of the Supportive Child Care Workers in the center. I have worked with school-aged children for the past 16
+			years in all aspects of their care. I am the mother of a teenage boy and also have two dogs.
+			<br />I started my career in Edmonton, AB where I gained extensive experience managing and operating school-aged
+			child care facilities. In 2004 I was blessed with the birth of my son and felt it was necessary for him to be
+			raised knowing his family, so we relocated back to Nova Scotia. My staff and I look forward to working with you
+			and your family	to ensure your child has the most positive experience at After The Bell Inc.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Early Childhood Education Diploma (Nova Scotia Teachers College)
+			<br />  - Level 2
+			<br />  - Completed Bullying Prevention Seminar
+			<br />  - Class 4 Drivers Licence
+			<br />  - Child Care Emergency First Aid & CPR Training</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#lorraine ------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup" id="lorraine">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3>Lorraine</h3> <h5>(Staff)</h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/lorraine.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Lorraine and I am the Supportive Child Care Staff, which creates inclusive environments for children
+			and provides support and information to ATB employees about diverse activities. I have been an
+			employee here for 8 years. Here at After The Bell Inc. I have worked with children of all ages and in many
+			roles, and although I have worked at other licenced centres in our city my heart belongs with After The Bell Inc.
+			I believe it is important to continue my education in the Early Childhood Education field and find it extremely
+			rewarding to share what I have learned with other staff members at After The Bell Inc. I enjoy singing and the outdoors;
+			family and friends are also a big part of my life. I truly love working with children, it comes naturally to me and
+			I enjoy every minute of my job!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Several ECE Courses
+			<br />  - Level 1 and Designate
+			<br />  - Child Care Emergency First Aid & CPR Training
+			<br />  - Class 4 Drivers Licence</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#sheri ---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup" id="sheri">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3>Sheri</h3> <h5>(Staff)</h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/sheri.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, I'm Sheri; I'm a mother of two beautiful daughters. I have been a staff member
+			   at ATB since 2009. My youngest daughter has attended ATB since then.
+			<br />One of my favorite parts of my job here is craft time with the children. I love their
+			   creativity and their enthusiasm to try. I used to work for HRSB before coming to ATB.
+			<br />I enjoy coming to ATB every day to care for your children and watch them play, learn, and grow!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid & CPR Training
+			<br />  - Level 1</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#rebecca -------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="rebecca">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Rebecca </h3> <h5> Summer Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/no_image.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Rebecca. I have been volunteering at After the Bell since 2009 and working here since 2012. 
+			I work mostly during the summer due to school but also love to help out when I can. I am entering into my 
+			fourth and final year in a Bachelor of Arts in Child and Youth Study at Mount Saint Vincent University in the 
+			fall. I love working with children and being able to watch them grow and develop through play and other 
+			activities that they enjoy. My favorite thing is introducing new and fun activities and watching how the 
+			children interact with them! </p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Entry Level Classification 
+			<br />  - Emergency First Aid & CPR
+			<br />  - Suicide Intervention (ASIST) Course
+			<br />  - Basic Food Safety</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#alyssa---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="alyssa">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3>Alyssa</h3> <h5>(Staff)</h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/alyssa.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hello, my name is Alyssa! I have been employed at After The Bell since October 2015. I am currently enrolled in the Child and Youth
+			Study Program at the Mount Saint Vincent University, planning to become a child care worker for troubled youth. Having the opportunity
+			to work at After The Bell Inc. has been a great experience for me as I love working children. Everyday I look forward to learning more
+			and building relationships with all the kids. </p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid & CPR Training</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#tieasha -------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="tieasha">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Tieasha </h3> <h5> (Staff) </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/tieasha.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hello, my name is Tieasha. I have been employed at After The Bell since December 2016. I have recently graduated from Success College were
+			I studied Human Services Child and Youth. I’ve been working with children since I was 14 years old and hope to open up my own after school
+			program or a youth program for troubled youth in the future.
+			<br />Working at After The Bell Inc. gives me the opportunity to learn more and more new skills each day. Working with the children and staff
+			has been an amazing experience for me and I am excited to build relationships with the kids and watching them grow.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - School Aged Approval (Level 2)
+			<br />  - Child Care Emergency First Aid & CPR Training
+			<br />  - Entry Level Early Childhood</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#ryan ----------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="ryan">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Ryan </h3> <h5> (Staff) </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/ryan.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hello, my name is Ryan and I am currently enrolled at Mount Saint Vincent University. I love working with kids and engaging in the community.
+			I currently sit on a SAC, PTO, and am a member of the Kinsmen Club of Dartmouth. My passion is youth leadership and getting kids involved in the community.
+			I have 7 years of experience working with children and youth as well as community partners. I hope one day to become a teacher and continue to
+			impact young people's lives. I'm very excited to start work at After The Bell Inc and develop relationships with kids and families!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid & CPR Training
+			<br />  - Class 4 Drivers Licence
+			<br />  - Entry Level Early Childhood</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#ranae ---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="ranae">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Ranae </h3> <h5> (Staff) </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/ranae.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi my name is Ranae, I have been employed at After the Bell for over a month now. I recently graduated from Success College from the Child and
+			Youth Care Worker Program. Since I was a little girl my dream was to always work with children, and today I am fulfilling my dream. I love working
+			with the staff and children at After The Bell Inc, I look forward to seeing them each day. My future dream is to own my own drop in centre for youth
+			in my community of East Preston, so that our future generation can have a place where they can call their own, to be safe and have a sense of security
+			and share in equality.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - School Age Training Approval
+			<br />  - Orientation for Staff working in Licensed Child Care Facilities
+			<br />  - Non-Violent Crisis Intervention
+			<br />  - Non-Aversive Behaviour
+			<br />  - Applied Suicide Intervention Skills (ASIST)
+			<br />  - Defusing a Hostile Client
+			<br />  - Critical Incident Stress Management</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#jordan --------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="jordan">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Jordan </h3> <h5> (Staff) </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/jordan.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi everyone, my name Jordan and I'm currently the newest staff member here at After The Bell Inc. I've been working with children for the past
+			5 years, most notably through the Tim Horton's Children Foundation. During my time with the THCF I grew a passion for working with children, and I
+			believe that if I can instill the same qualities that were placed in myself with your children I truly believe that the sky is the limit.
+			With basketball being my one true love, I recently started volunteering with the Dartmouth Lakers Basketball Program as Head Coach to help develop
+			my skills working with youth. I look forward to getting to know you and helping your kids reach their highest potential.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid & CPR Training</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#hayley --------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="hayley">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Hayley </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/hayley.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hello, my name is Hayley! I have been employed with After the Bell since July 2015. I have absolutely fell in love with my job, the staff and
+			all of the children that are attending ATB. I am currently in school at NSCC in the Child and Youth Care Program aspiring to work with children
+			and trauma one day.  Working with kids is my passion and everyday I come to work excited and eager to interact with kids, learn and build new
+			relationships.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid & CPR Training
+			<br />  - Level 1</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#chris ---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="chris">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Chris </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/chris.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hello my name is Chris and I've been employed with After The Bell since September 2018. I graduated 
+			from NSCC in June 2018 after completing the Business Administration program in which I concentrated in Management. 
+			I've been working with children and youth for 15+ years and I love what I do. When you see a child that you have 
+			worked with over the years grow up and succeed after a rough childhood, it is one of the most rewarding things I can imagine. 
+			My career goal is to be involved with the management of a non-profit organization that works with children and/or youth. 
+			Child and youth workers, teachers and sports coaches have been great role models for me, and it's only right that 
+			I pay it forward.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Emergency First Aid and CPR Level "C" & AED
+			<br />  - High Five: Principles of Healthy Child Development 
+			<br />  - WHMIS 
+			<br />  - Occupational Health and Safety</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#chelsea -------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="chelsea">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Chelsea </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/chelsea.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Chelsea and I just began my journey working at After The Bell.
+			<br />I relocated from Kingston, Ontario where I have been in the ECE/CYW field for over 10 years.
+			My passion in life is being able to positively impact children’s lives as well as being able to experience
+			watching them grow, learn and have fun. I absolutely fell in love with After The Bell my first day working there.
+			I have immediately connected with the staff, the children as well as their families and I truly look
+			forward to being able to continue these relationships I have quickly developed!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - ECE College Diploma (Level 2)
+			<br />  - Child and Youth Worker College Diploma
+			<br />  - Child Care Emergency First Aid & CPR Training</p>
+		</div>
+	</div>
+</div>
+
+<!-- DIV#grace ---------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="grace">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Grace </h3> <h5> Summer Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/grace.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Grace! I am going into my grade 12 year at Auburn Drive High School. I attended ATB 
+			from grade 1 to grade 5, and I have this wonderful place to thank for many memories that helped shape 
+			me into the person I am today! I volunteered at ATB a few summers ago, and I’m absolutely thrilled to 
+			be a part of the staff team this summer! I am a huge people-person, a firm believer in the power of 
+			kindness, and I have a passion for spreading love and positivity!</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+		</div>
+	</div>
+</div>
+
+<!-- Sarah -------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Sarah </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/sarah.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi, my name is Sarah. I am an Early Years Childcare staff at ATB, I have worked with children for
+			over 6 years and have gained knowledge and passion for teaching. At ATB children enjoy a nurturing 
+			environment which includes fun activities and learning.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Bachelors in Psychology and Sociology
+			<br />  - ECE - Entry Level
+			<br />  - Mental Health First Aid Training
+			<br />  - Child Care Emergency First Aid, CPR, and AED training
+			<br />  - Emergency First Aid Responder - St. John Ambulance</p>
+		</div>
+	</div>
+</div>
+
+<!-- Melissa ------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> Melissa </h3> <h5> Staff </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/melissa.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Hi. I'm Melissa. I grew up in the local area. I knew at a young age I wanted to work with 
+			children. I am the oldest of 10 grandchildren on my dad's side of family. I could always be found 
+			looking after them. I have been an ECE for 4 and a half years. I have worked with children of various 
+			ages. I love doing crafts, sensory and science activities. The messier the better. I look forward to 
+			helping the children at ATB grow into the best they can be. All children deserve to be loved and 
+			nurtured.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Child Care Emergency First Aid and CPR Training
+			<br />  - Level 3 ECE</p>
+		</div>
+	</div>
+</div>
+
+<!-- Megan -------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> NAME </h3> <h5> SUBFRAME </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/no_image.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>My name is Megan Wallace and I am an ECE at After the Bell Inc. I've recently moved back from 
+			Alberta after spending 4 years there. I have a beautiful 4-year-old son named James, that is the 
+			light of my life.  I am currently enrolled in the Nova Scotia community college Akerley campus and 
+			studying Early childhood Education. I've started my career in child care about 1 year ago now, but 
+			have always enjoyed working with children.  I started working at After the Bell Inc. in March 2019 
+			and I've loved every second and can't wait for many more years to come.  Children have a natural 
+			wonder and curiosity when it comes to everyday life and their infectious zest for learning new things 
+			makes it a joy to work with them.  I love being able to see the children grow and develop into their 
+			own unique beings. It is such a rewarding job!</p>
+		</div>
+	</div>
+</div>
+
+
+
+<!-- DIV#template ----------------- copy this and paste it for each new staff member ------------------------------------------------------------------>
+<div class="popup"id="template">
+	<div class="row">
+		<div class="col-lg-8 col-lg-offset-2"><h3> NAME </h3> <h5> SUBFRAME </h5></div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<div class="popup_img"><img class="img-responsive" src="img/team/no_image.jpg"/></div>
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12">
+			<p>Words for description go HERE.</p>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-lg-12 col-lg-offset-2">
+			<h3>Qualifications</h3>
+			<p>  - Go HERE!</p>
+		</div>
+	</div>
+</div>
