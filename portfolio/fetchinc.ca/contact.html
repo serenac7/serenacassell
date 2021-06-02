@@ -1,128 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <title>Fetch Inc. Canine Education</title>
 
-    <title>Fetch Inc. Canine Education</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/main.css" rel="stylesheet">
+  <script>
+    required.add('full_name','NOT_EMPTY','Full Name', 2);
+    required.add('email_addr','EMAIL','Email Address', 2);
+    required.add('the_message','NOT_EMPTY','Your Message', 2);
+    required.add('anti_spam','NOT_EMPTY','Anti-Spam Question', 1);
+  </script>
+</head>
 
-    <!-- Custom styles for this template -->
-    <link href="css/main.css" rel="stylesheet">
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="classes.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="prices.html">Price Information</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html">Contact
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-		<script src="scripts/contact_form_validation.js"></script>
+  <!-- Page Content -->
+  <div class="container">
+    <!-- action="scripts/contactformprocess.php" -->
+    <form id="contactform" method="post" action="scripts/contactformprocess.php">
+      <div class="col-xs-12"><h1>Contact Us Form</h1></div>
+      <div class="col-xs-12"><p>Fields marked with <span class="required_star"> * </span> are mandatory.</p></div>
 
-		<script>
-			required.add('full_name','NOT_EMPTY','Full Name', 2);
-			required.add('email_addr','EMAIL','Email Address', 2);
-			required.add('the_message','NOT_EMPTY','Your Message', 2);
-			required.add('anti_spam','NOT_EMPTY','Anti-Spam Question', 1);
-		</script>
+      <div class="col-md-6">
+        <label class="required">Full Name<span class="required_star"> * </span></label>
+        <br />
+        <input type="text" id="full_name" name="full_name" autocomplete="name" maxlength="120" style="width:230px">
+        <br />
+        <label class="required">Email Address<span class="required_star"> * </span></label>
+        <br/>
+        <input type="text" id="email_addr" name="email_addr" autocomplete="email" maxlength="100" style="width:230px">
+      </div>
+      <div class="col-md-6">
+        <label class="required">Your Message<span class="required_star"> * </span></label>
+        <br />
+        <textarea style="padding-left:8px;width:240px;height:160px" id="the_message" name="the_message" maxlength="2000"></textarea>
+      </div>
+      <div class="col-xs-12">
+        <p>To help prevent spam, please answer this question:
+        <br />Using only numbers, what is ten plus fifteen?<span class="required_star"> * </span> &nbsp;
+        <input type="text" id="anti_spam" name="anti_spam" maxlength="100" style="width:30px"></p>
+      </div>
+      <div class="col-xs-12">
+        <input type="submit" value=" Submit Form " style="width:200px;height:40px">
+        <br /><br />
+      </div>
+    </form>
+    
+    <div class="card text-white bg-secondary my-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">80 Joseph Zatzman Drive, Burnside, NS &nbsp;&nbsp;|&nbsp;&nbsp; (902)&nbsp;468&#8209;0207 &nbsp;&nbsp;|&nbsp;&nbsp; fetchinc.k9@gmail.com</p>
+      </div>
+    </div>
 
-  </head>
-
-	<body>
-
-		    <!-- Navigation -->
-		    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-		      <div class="container">
-		        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-		          <span class="navbar-toggler-icon"></span>
-		        </button>
-		        <div class="collapse navbar-collapse" id="navbarResponsive">
-		          <ul class="navbar-nav ml-auto">
-		            <li class="nav-item">
-		              <a class="nav-link" href="index.html">Home</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="classes.html">Classes</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="prices.html">Price Information</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="#">Calendars</a>
-		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link" href="fb_albums.html">Albums</a>
-		            </li>
-		            <li class="nav-item active">
-		              <a class="nav-link" href="contact.html">Contact
-		                <span class="sr-only">(current)</span>
-					  		  </a>
-		            </li>
-		          </ul>
-		        </div>
-		      </div>
-		    </nav>
-
-		    <!-- Page Content -->
-		    <div class="container">
-					<!-- action="scripts/contactformprocess.php" -->
-	<form id="contactform" method="post" action="scripts/contactformprocess.php">
-
-	 <div class="col-xs-12"><h1>Contact Us Form</h1></div>
-
-	 <div class="col-xs-12"><p>Fields marked with <span class="required_star"> * </span> are mandatory.</p></div>
-
-	 <div class="col-md-6">
-	  <label class="required">Full Name<span class="required_star"> * </span></label>
-		<br />
-	  <input type="text" id="full_name" name="full_name" autocomplete="name" maxlength="120" style="width:230px">
-		<br />
-	  <label class="required">Email Address<span class="required_star"> * </span></label>
-		<br/>
-	  <input type="text" id="email_addr" name="email_addr" autocomplete="email" maxlength="100" style="width:230px">
-	 </div>
-	 <div class="col-md-6">
-	  <label class="required">Your Message<span class="required_star"> * </span></label>
-		<br />
-	  <textarea style="padding-left:8px;width:240px;height:160px" id="the_message" name="the_message" maxlength="2000"></textarea>
-	 </div>
-	 <div class="col-xs-12">
-	 	<p>To help prevent spam, please answer this question:
-			<br />
-	   Using only numbers, what is 10 plus 15?<span class="required_star"> * </span> &nbsp;
-	   <input type="text" id="anti_spam" name="anti_spam" maxlength="100" style="width:30px"></p>
-	 </div>
-	<div class="col-xs-12">
-	 <input type="submit" value=" Submit Form " style="width:200px;height:40px">
-	 <br /><br />
   </div>
+  <!-- /.container -->
 
-	</form>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+    <p class="m-0 text-center text-white">Copyright &copy; Serena Cassell 2018</p>
+    </div>
+  </footer>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/bootstrap.bundle.min.js"></script>
 
+</body>
 
-
-	      <!-- Call to Action Well -->
-	      <div class="card text-white bg-secondary my-4 text-center">
-	        <div class="card-body">
-	          <p class="text-white m-0">80 Joseph Zatzman Drive, Burnside, NS &nbsp;&nbsp;|&nbsp;&nbsp; (902)&nbsp;468&#8209;0207 &nbsp;&nbsp;|&nbsp;&nbsp; fetchinc.k9@gmail.com</p>
-	        </div>
-	      </div>
-
-	    </div>
-	    <!-- /.container -->
-
-	    <!-- Footer -->
-	    <footer class="py-5 bg-dark">
-	      <div class="container">
-	        <p class="m-0 text-center text-white">Copyright &copy; Serena Cassell 2018</p>
-	      </div>
-	      <!-- /.container -->
-	    </footer>
-
-	    <!-- Bootstrap core JavaScript -->
-	    <script src="scripts/jquery.min.js"></script>
-	    <script src="scripts/bootstrap.bundle.min.js"></script>
-
-	  </body>
-
-	</html>
+</html>
