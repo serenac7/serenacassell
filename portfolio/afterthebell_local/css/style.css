@@ -1,4 +1,12 @@
-/* ==== Google font ==== */
+/*
+Colors used before:
+Lime: #6F5;
+Dark Purple:#608;
+Orange: #f70;
+Light Purple: #D8F;
+Reddish: #900;
+*/
+
 /* ==== Google font ==== */
 @import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 
@@ -9,6 +17,21 @@ body {
   font-weight: 300;
   color: #444;
   background-color: #fff;
+}
+
+footer {
+  background-color: #608;
+  text-align: center;
+  padding: 50px 0;
+}
+
+footer p {
+  color: #f8f8f8;
+}
+
+footer a, 
+footer a:hover {
+  color: #fff;
 }
 
 html {
@@ -45,6 +68,54 @@ a:focus {
   font-weight: 400;
 }
 
+/* ===========================
+--- Responsive Images Grid
+============================ */
+/* grid */
+.imgrow {
+  box-sizing: border-box;
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create 2 equal columns that sits next to each other */
+.imgcolumn {
+  box-sizing: border-box;
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 4px;
+}
+
+.imgcolumn img {
+  box-sizing: border-box;
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border: 1px solid #608;
+}
+
+@media (max-width: 767px) {
+  .imgcolumn {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*single image*/
+.responsive {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #608;
+}
+
+/* ===========================
+--- Navigation
+============================ */
 .navbar {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -147,12 +218,7 @@ a:focus {
   outline: 0;
 }
 
-/* Trying new navigationt to nest old nav */
-.atb-top-level-container {
-  display: flex;
-  justify-content: center;
-}
-
+/* Logo style for the top of the page */
 .atb-top-level-logo {
   width: 100%;
   height: 100%;
@@ -164,10 +230,10 @@ a:focus {
   justify-content: center;
 }
 
-/* .nav-container-center{
 
-} */
-
+/* ===========================
+--- Loader
+============================ */
 /* loader */
 #preloader {
   background: #ffffff;
@@ -657,7 +723,7 @@ hr {
 }
 
 .owner-text-container {
-  padding: 0% 5%;
+  padding: 5% 10%;
   display: flex;
   flex-direction: column;
 }
@@ -691,6 +757,7 @@ hr {
 .owner-image-center {
   display: flex;
   justify-content: center;
+  padding: 5%;
 }
 
 .owner-image {
@@ -717,9 +784,6 @@ hr {
 .testimonials-header {
   width: 100%;
   text-align: center;
-}
-
-.testimonials-header h1 {
   padding: 5%;
 }
 
@@ -771,7 +835,7 @@ hr {
 .school_bus_wrapper {
   display: flex;
   justify-content: center;
-  padding-bottom: 8%;
+  padding-bottom: 5%;
   margin: 0% 5%;
   /* added to fix safari spacing bug */
   flex-direction: column;
@@ -870,7 +934,7 @@ hr {
   padding-bottom: 5%;
 }
 
-.policy-text {
+.normal-text {
   font-size: 2.1rem;
 }
 
@@ -1039,18 +1103,6 @@ form#contact-form textarea:focus {
   background: #71c6f3;
 }
 
-/* ===========================
---- Footer
-============================ */
-
-footer {
-  text-align: center;
-  padding: 50px 0;
-}
-
-footer p {
-  color: #f8f8f8;
-}
 
 /* ==========================
 Parallax
@@ -1281,7 +1333,7 @@ Parallax
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .team.boxed-grey {
     margin-bottom: 30px;
   }
@@ -1314,6 +1366,7 @@ Parallax
     font-size: 20px;
   }
 }
+ 
 
 /****** Intro Slogan ******/
 @media (max-width: 767px) {
@@ -1729,11 +1782,6 @@ h5 {
   font-size: 105%;
 }
 
-/* Footer */
-a.footer {
-  color: #fff;
-}
-
 /****** Inclement Weather Policy ******/
 @media (max-width: 500px) {
   .policy-container {
@@ -1754,7 +1802,7 @@ a.footer {
     padding-bottom: 5%;
   }
 
-  .policy-text {
+  .normal-text {
     font-size: 2.1rem;
   }
 }
