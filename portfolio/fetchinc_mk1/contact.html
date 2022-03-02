@@ -15,10 +15,10 @@
   <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
   <script>
-    required.add('full_name','NOT_EMPTY','Full Name', 2);
-    required.add('email_addr','EMAIL','Email Address', 2);
-    required.add('the_message','NOT_EMPTY','Your Message', 2);
-    required.add('anti_spam','NOT_EMPTY','Anti-Spam Question', 1);
+    required.add('fullName','NOT_EMPTY','Full Name', 2);
+    required.add('emailAddr','EMAIL','Email Address', 2);
+    required.add('theMessage','NOT_EMPTY','Your Message', 2);
+    required.add('antiSpam','NOT_EMPTY','Anti-Spam Question', 1);
   </script>
 </head>
 
@@ -52,49 +52,68 @@
 
   <!-- Page Content -->
   <div class="container">
-    <!-- action="scripts/contactformprocess.php" -->
+    <div class="row">
+      <h1>Contact Us!</h1>
+    </div>
+    <div class="row">
+      <p>Fields marked with <span class="required_star"> * </span> are mandatory.</p>
+    </div>
+    
+    <!-- the Form. -->
     <form id="contactform" method="post" action="scripts/contactformprocess.php">
-      <div class="col-xs-12"><h1>Contact Us Form</h1></div>
-      <div class="col-xs-12"><p>Fields marked with <span class="required_star"> * </span> are mandatory.</p></div>
-
-      <div class="col-md-6">
-        <label class="required">Full Name<span class="required_star"> * </span></label>
-        <br />
-        <input type="text" id="full_name" name="full_name" autocomplete="name" maxlength="120" style="width:230px">
-        <br />
-        <label class="required">Email Address<span class="required_star"> * </span></label>
-        <br/>
-        <input type="text" id="email_addr" name="email_addr" autocomplete="email" maxlength="100" style="width:230px">
+      <div class="form-group">
+        <label for="fullName" class="required">Full Name<span class="required_star"> * </span></label>
+        <input type="text" class="form-control" id="fullName" name="fullName" autocomplete="name" >
       </div>
-      <div class="col-md-6">
-        <label class="required">Your Message<span class="required_star"> * </span></label>
-        <br />
-        <textarea style="padding-left:8px;width:240px;height:160px" id="the_message" name="the_message" maxlength="2000"></textarea>
+      
+      <div class="form-group">
+        <label for="emailAddr" class="required">Email Address<span class="required_star"> * </span></label>
+        <input type="text" class="form-control" id="emailAddr" name="emailAddr" autocomplete="email">
       </div>
-      <div class="col-xs-12">
-        <p>To help prevent spam, please answer this question:
-        <br />Using only numbers, what is ten plus fifteen?<span class="required_star"> * </span> &nbsp;
-        <input type="text" id="anti_spam" name="anti_spam" maxlength="100" style="width:30px"></p>
+      
+      <div class="form-group">
+        <label for="queryAbout" class="required">Question Type</span></label>
+        <select class="form-control" id="queryAbout" name="queryAbout">
+          <option>Classes</option>
+          <option>Daycare</option>
+          <option>Other</option>
+        </select>
       </div>
-      <div class="col-xs-12">
+      <div class="form-group">
+      
+        <label for="theMessage" class="required">Your message<span class="required_star"> * </span></label>
+        <textarea class="form-control" id="theMessage" name="theMessage" maxlength="2000" rows="4"></textarea>
+      </div>
+      
+      <div class="form-group row">
+        <div class="col">
+        <label for="antiSpam">To prevent spam, please answer this question: Using only numbers, what is ten plus fifteen?</label>
+        </div>
+        <div class="col-3">
+        <input type="text" class="form-control" id="antiSpam" name="antiSpam">
+        </div>
+      </div>
+      
+      <div class="form-group">
         <input type="submit" value=" Submit Form " style="width:200px;height:40px">
-        <br /><br />
       </div>
+      
     </form>
     
+    <!-- Footer -->    
     <div class="card text-white bg-secondary my-4 text-center">
       <div class="card-body">
         <p class="text-white m-0">80 Joseph Zatzman Drive, Burnside, NS &nbsp;&nbsp;|&nbsp;&nbsp; (902)&nbsp;468&#8209;0207 &nbsp;&nbsp;|&nbsp;&nbsp; fetchinc.k9@gmail.com</p>
       </div>
     </div>
-
+    
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
-    <p class="m-0 text-center text-white">Copyright &copy; Serena Cassell 2018</p>
+        <p class="m-0 text-center text-white">Created by Serena Cassell 2022</p>
     </div>
   </footer>
 
