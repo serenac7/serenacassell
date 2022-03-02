@@ -1,6 +1,0 @@
-DirectoryIndex index.html
-
-
-<IfModule headers_module>
-  header set X-Clacks-Overhead "GNU Terry Pratchett"
-</IfModule>
